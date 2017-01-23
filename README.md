@@ -1,5 +1,5 @@
 Please import Terminal Profiles(bin/archey.terminal) at first.
-![www](1.png)
+![www](233.png)
 
 #Reference
 [tput setaf color table](http://unix.stackexchange.com/questions/269077/tput-setaf-color-table-how-to-determine-color-codes)  
