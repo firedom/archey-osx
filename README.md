@@ -1,4 +1,4 @@
-(1.png)
+![www](1.png)
 #Archey for OS X
 An archey script for OS X.
 
