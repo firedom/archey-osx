@@ -1,3 +1,4 @@
+Please import Terminal Profiles(bin/archey.terminal) at first.
 ![www](1.png)
 #Archey for OS X
 An archey script for OS X.
