@@ -5,7 +5,9 @@ One more thing is that add line `clear;archey`in `～/.bash_profile` file.
 #Reference
 [tput setaf color table](http://unix.stackexchange.com/questions/269077/tput-setaf-color-table-how-to-determine-color-codes)  
 [pikachu pixel logo](http://theinspirationblog.net/round-ups/yellow-belly-cute-pikachu-pixel-art/attachment/pikachu-pixel-2/)  
-[startup with Terminal](https://www.zhihu.com/question/28355713)
+[startup with Terminal](https://www.zhihu.com/question/28355713)  
+[another introduction for archey](http://aicdg.com/linux/2016/05/18/atchey-term.html)  
+
 #Archey for OS X
 An archey script for OS X.
 
