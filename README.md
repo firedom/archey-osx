@@ -1,10 +1,11 @@
-Please import Terminal Profiles(bin/archey.terminal) at first.
+Please import Terminal Profiles(bin/archey.terminal) at first.  
+One more thing is that add line `clear;archey`in `～/.bash_profile` file.
 ![www](233.png)
 
 #Reference
 [tput setaf color table](http://unix.stackexchange.com/questions/269077/tput-setaf-color-table-how-to-determine-color-codes)  
 [pikachu pixel logo](http://theinspirationblog.net/round-ups/yellow-belly-cute-pikachu-pixel-art/attachment/pikachu-pixel-2/)
-
+[startup with Terminal](https://www.zhihu.com/question/28355713)
 #Archey for OS X
 An archey script for OS X.
 
