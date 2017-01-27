@@ -10,7 +10,31 @@ Then you can input command `archey -c <logo filename>` disp your logo,like that:
 
 #How to create costume logo  
 Here is a example, if you want to get a pikachu, you may create a file `pikachu` at `~/.config/archey/pokemon`(just a example, you can named it anything you want.), and add this text in file. 
-
+```
+echo -e "
+          ${P_BALCK#    }██${P_BALCK#    }██                  ${P_BALCK#    }██      ${fieldlist[0]}
+        ${P_BALCK#    }██${P_GRAY#    }██${P_BALCK#    }██                ${P_BALCK#    }██${P_YELLOW#    }██${P_BALCK#    }██    ${fieldlist[1]}
+        ${P_BALCK#    }██${P_YELLOW#    }██${P_BALCK#    }██              ${P_BALCK#    }██${P_YELLOW#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_BALCK#    }██  ${fieldlist[2]}
+      ${P_BALCK#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_BALCK#    }██        ${P_BALCK#    }██${P_BALCK#    }██${P_BALCK#    }██${P_YELLOW#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_BALCK#    }██  ${fieldlist[3]}
+      ${P_BALCK#    }██${P_YELLOW#    }██${P_ORANGE#    }██${P_BALCK#    }██    ${P_BALCK#    }██${P_BALCK#    }██${P_GRAY#    }██${P_GRAY#    }██${P_BALCK#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_BALCK#    }██    ${fieldlist[4]}
+    ${P_BALCK#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_BALCK#    }██${P_BALCK#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_GRAY#    }██${P_BALCK#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_BALCK#    }██      ${fieldlist[5]}
+  ${P_BALCK#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_BALCK#    }██${P_BALCK#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_BALCK#    }██        ${fieldlist[6]}
+${P_BALCK#    }██${P_WRITE#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_ORANGE#    }██${P_BALCK#    }██${P_WRITE#    }██${P_BALCK#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_BALCK#    }██      ${fieldlist[7]}
+${P_BALCK#    }██${P_BALCK#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_BALCK#    }██${P_WRITE#    }██${P_BALCK#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_BALCK#    }██      ${fieldlist[8]}
+${P_BALCK#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_WRITE#    }██${P_BALCK#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_BALCK#    }██${P_BALCK#    }██${P_ORANGE#    }██${P_BALCK#    }██        ${fieldlist[9]}
+  ${P_BALCK#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_BALCK#    }██${P_BALCK#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_ORANGE#    }██${P_BALCK#    }██${P_BALCK#    }██${P_BALCK#    }██          ${fieldlist[10]}
+    ${P_BALCK#    }██${P_ORANGE#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_RED#    }██${P_RED#    }██${P_YELLOW#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_BALCK#    }██            ${fieldlist[11]}
+    ${P_BALCK#    }██${P_ORANGE#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_RED#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_GRAY#    }██${P_GRAY#    }██${P_BALCK#    }██                ${fieldlist[12]}
+  ${P_BALCK#    }██${P_YELLOW#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_YELLOW#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_BALCK#    }██          
+    ${P_BALCK#    }██${P_BALCK#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_BALCK#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_GRAY#    }██${P_BALCK#    }██        
+      ${P_BALCK#    }██${P_ORANGE#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_BALCK#    }██${P_YELLOW#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_BALCK#    }██        
+    ${P_BALCK#    }██${P_ORANGE#    }██${P_BALCK#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_BALCK#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_BALCK#    }██      
+    ${P_BALCK#    }██${P_BALCK#    }██${P_BALCK#    }██${P_BALCK#    }██${P_BALCK#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_ORANGE#    }██${P_ORANGE#    }██${P_BALCK#    }██        
+              ${P_BALCK#    }██${P_BALCK#    }██${P_BALCK#    }██${P_ORANGE#    }██${P_BALCK#    }██${P_BALCK#    }██      
+                ${P_BALCK#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_ORANGE#    }██${P_BALCK#    }██        
+                  ${P_BALCK#    }██${P_BALCK#    }██${P_BALCK#    }██             
+${normal}"
+```
 #Reference
 [tput setaf color table](http://unix.stackexchange.com/questions/269077/tput-setaf-color-table-how-to-determine-color-codes)  
 [pikachu pixel logo](http://theinspirationblog.net/round-ups/yellow-belly-cute-pikachu-pixel-art/attachment/pikachu-pixel-2/)  
