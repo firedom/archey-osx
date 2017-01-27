@@ -8,7 +8,7 @@ You can create a folder at `~/.config/archey`, and add your logo file like this:
 Then you can input command `archey -c <logo filename>` disp your logo,like that:
 ![www](232.png)  
 #How to create costume logo  
-Here is a example, if you want to get a pikachu, you may create a file `pikachu` at `~/.config/archey/pokemon`(just a example, you can named it anything you want.), and add this text to file. 
+Here is a example, if you want to get a pikachu, you may create a file `pikachu` at `~/.config/archey/pokemon`(just a example, you can named it anything and anywnere you want), and add this text to file. 
 ```
 echo -e "
           ${P_BALCK#    }██${P_BALCK#    }██                  ${P_BALCK#    }██      ${fieldlist[0]}
