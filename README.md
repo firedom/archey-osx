@@ -9,7 +9,7 @@ Then you can input command `archey -c <logo filename>` disp your logo,like that:
 ![www](235.png)
 
 #How to create costume logo  
-Here is a example, if you want to get a pikachu, you may create a file `pikachu` at `~/.config/archey/pokemon`(just a example, you can named it anything you want.), and add this text in file. 
+Here is a example, if you want to get a pikachu, you may create a file `pikachu` at `~/.config/archey/pokemon`(just a example, you can named it anything you want.), and add this text to file. 
 ```
 echo -e "
           ${P_BALCK#    }██${P_BALCK#    }██                  ${P_BALCK#    }██      ${fieldlist[0]}
@@ -35,6 +35,9 @@ ${P_BALCK#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    
                   ${P_BALCK#    }██${P_BALCK#    }██${P_BALCK#    }██             
 ${normal}"
 ```
+and get that:
+![www](235.png)
+
 #Reference
 [tput setaf color table](http://unix.stackexchange.com/questions/269077/tput-setaf-color-table-how-to-determine-color-codes)  
 [pikachu pixel logo](http://theinspirationblog.net/round-ups/yellow-belly-cute-pikachu-pixel-art/attachment/pikachu-pixel-2/)  
