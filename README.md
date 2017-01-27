@@ -2,6 +2,15 @@ Please import Terminal Profiles(bin/archey.terminal) at first.
 One more thing is that add line `clear;archey`in `～/.bash_profile` file.
 ![www](233.png)
 
+#Use costume logo
+You can create a folder at `~/.config/archey`, and add your logo file like this:
+![www](234.png)
+Then you can input command `archey -c <logo filename>` disp your logo,like that:
+![www](235.png)
+
+#How to create costume logo  
+Here is a example, if you want to get a pikachu, you may create a file `pikachu` at `~/.config/archey/pokemon`(just a example, you can named it anything you want.), and add this text in file. 
+
 #Reference
 [tput setaf color table](http://unix.stackexchange.com/questions/269077/tput-setaf-color-table-how-to-determine-color-codes)  
 [pikachu pixel logo](http://theinspirationblog.net/round-ups/yellow-belly-cute-pikachu-pixel-art/attachment/pikachu-pixel-2/)  
