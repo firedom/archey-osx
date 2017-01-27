@@ -1,0 +1,24 @@
+  RED=$(tput       setaf 196 2>/dev/null)
+  GREEN=$(tput     setaf 2 2>/dev/null)
+  YELLOW=$(tput    setaf 3 2>/dev/null)
+  BLUE=$(tput      setaf 4 2>/dev/null)
+  PURPLE=$(tput    setaf 5 2>/dev/null)
+  textColor=$(tput setaf 6 2>/dev/null)
+  normal=$(tput    sgr0 2>/dev/null)
+
+echo -e "
+${GREEN#  }                 ███                  ${fieldlist[0]}
+${GREEN#  }               ████                   ${fieldlist[1]}
+${GREEN#  }               ███                    ${fieldlist[2]}
+${GREEN#  }       ███████    ███████             ${fieldlist[3]}
+${YELLOW# }     ██████████████████████           ${fieldlist[4]}
+${YELLOW# }    █████████████████████             ${fieldlist[5]}
+${RED#    }    ████████████████████              ${fieldlist[6]}
+${RED#    }    ████████████████████              ${fieldlist[7]}
+${RED#    }    █████████████████████             ${fieldlist[8]}
+${PURPLE# }     ██████████████████████           ${fieldlist[9]}
+${PURPLE# }      ████████████████████            ${fieldlist[10]}
+${BLUE#   }        ████████████████              ${fieldlist[11]}
+${BLUE#   }         ████     █████               ${fieldlist[12]}
+${normal}
+"
