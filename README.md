@@ -6,7 +6,7 @@ One more thing is that add line `clear;archey`in `～/.bash_profile` file.
 You can create a folder at `~/.config/archey`, and add your logo file like this:
 ![www](234.png)
 Then you can input command `archey -c <logo filename>` disp your logo,like that:
-![www](235.png)
+![www](232.png)
 
 #How to create costume logo  
 Here is a example, if you want to get a pikachu, you may create a file `pikachu` at `~/.config/archey/pokemon`(just a example, you can named it anything you want.), and add this text to file. 
@@ -35,7 +35,7 @@ ${P_BALCK#    }██${P_YELLOW#    }██${P_YELLOW#    }██${P_YELLOW#    
                   ${P_BALCK#    }██${P_BALCK#    }██${P_BALCK#    }██             
 ${normal}"
 ```
-and get that:
+and get that:  
 ![www](235.png)
 
 #Reference
