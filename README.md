@@ -2,6 +2,9 @@ Please import Terminal Profiles(bin/archey.terminal) at first.
 One more thing is that add line `clear;archey`in `～/.bash_profile` file.
 ![www](233.png)
 
+add huaji logo:  
+![www](236.png)
+
 #Use costume logo
 You can create a folder at `~/.config/archey`, and add your logo file like this:
 ![www](234.png)  
